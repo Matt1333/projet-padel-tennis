@@ -1,0 +1,23 @@
+# Environnements virtuels
+streamlit_app/
+.venv/
+venv/
+
+# caches / IDE
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+
+# notebooks et outputs lourds
+*.ipynb
+outputs/
+
+# Donn?es : ignorer tout sauf les CSV utiles
+data/*
+!data/data_es_clean.csv
+!data/dvf_communes_2024_idf.csv
+!data/lic_2022_tennis_idf.csv
+!data/geographie.csv
+!data/communes_france_clean.csv
+!data/ChiffresPadelTennis.csv
